@@ -17,17 +17,17 @@ const Hero = () => {
     return (
         <div className='container mx-auto px-4 py-8'>
 
-            <div className='flex gap-20 items-center justify-center md:flex-row flex-col'>
+            <div className='flex gap-20 md:items-center md:justify-center md:flex-row flex-col'>
 
                 {/* Typography */}
-                <div className='flex-1 md:px-20'>
-                    <h1 className='md:text-5xl tracking-wide text-3xl font-bold'>Hey I am <br /> 
+                <div className='flex-1 md:px-20 px-4'>
+                    <h1 className='md:text-5xl tracking-wide text-4xl font-bold'>Hey I am <br /> 
                     
                    
                     </h1>
 
                     <h1 className='mt-4 md:text-6xl font-bold text-4xl'> Nabil Khan </h1>
-                    <h2   className='text-black md:mt-12 mt-4 md:text-4xl text-2xl font-medium'>
+                    <h2   className='text-black md:mt-12 mt-4 md:text-4xl text-3xl font-medium'>
                         {text}
                         <span className='text-black'>
                         <Cursor />
